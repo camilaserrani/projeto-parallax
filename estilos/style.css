@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-size: 1em;
+    font-family: 'Montserrat';
+}
+
+html, body {
+    background-color: lightgrey;
+    text-align: center;
+    color: white;
+}
+
+div > h1 {
+    background-color:#585858;
+    color: white;
+    letter-spacing: 8px; 
+    font-size: 27px; 
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%; 
+}
+
+div.imagem {
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+#img01 {
+    background-image: url('../imagens/fachada.jpg');
+    background-position: center center; 
+}
+
+section.normal {
+    background-color:#282E34;
+    padding: 30px 50px;
+}
+
+section.normal > h2 {
+    font-weight: bold;
+    font-size: 1.5em;
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+section.normal > p {
+    font-size: 16px;
+    margin: auto;
+    line-height: 1.8em;
+    text-align: justify;
+}
+
+#light {
+   background-color: lightgrey;
+   color: black; 
+}
+
+section.imagem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section.imagem > h1 {
+    letter-spacing: 8px; 
+    font-size: 27px; 
+    text-align: center;
+}
+
+section.imagem {
+    background-position: center;
+    background-size: cover;
+    opacity: 0.7;
+    background-attachment: fixed;
+    height: 50vh; 
+}
+
+#img02 {
+    background-image: url('../imagens/sala-escandinava.jpg');
+    background-position: center bottom; 
+}
+
+#img03 {
+    background-image: url('../imagens/cozinha-industrial.jpg');
+    background-position: left center;
+}
+
+#img04 {
+    background-image: url('../imagens/poltronas.jpg');
+    background-position: left center;
+    height: 80vh;
+}
