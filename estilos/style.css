@@ -16,7 +16,7 @@ html, body {
 }
 
 div > h1 {
-    background-color:#585858;
+    background-color:#5858589f;
     color: white;
     letter-spacing: 8px; 
     font-size: 27px; 
@@ -95,6 +95,6 @@ section.imagem {
 
 #img04 {
     background-image: url('../imagens/poltronas.jpg');
-    background-position: left center;
-    height: 80vh;
+    background-position: center center;
+    height: 100vh;
 }
